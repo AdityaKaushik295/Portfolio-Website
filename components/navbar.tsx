@@ -56,7 +56,7 @@ export default function Navbar() {
             </div>
             <Link href="/" className="lg:hidden text-emerald-400 font-bold text-lg">Aditya K.</Link>
             <div className="flex items-center gap-3">
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="text-white hover:text-emerald-400 transition-colors" aria-label="Resume (opens in new tab)"><FileText className="w-5 h-5" /></a>
+              <a href="https://drive.google.com/file/d/1CzPA5eRbfxFptAejCRQt_vxyLCgNAStW/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="text-white hover:text-emerald-400 transition-colors" aria-label="Resume (opens in new tab)"><FileText className="w-5 h-5" /></a>
               {socialLinks.map((s) => (
                 <a key={s.href} href={s.href} target="_blank" rel="noopener noreferrer" className="hidden sm:block text-white hover:text-emerald-400 transition-colors" aria-label={`${s.label} (opens in new tab)`}>{s.icon}</a>
               ))}
